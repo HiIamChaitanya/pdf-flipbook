@@ -19,7 +19,7 @@
 
 .df-container {
     min-height: 320px;
-    background: no-repeat 50%;
+    background: no-repeat 70%;
     background-size: cover;
     width: 100%;
     position: relative;
@@ -70,7 +70,7 @@
 }
 
 .loading-info.df-old-browser {
-    color: gray;
+    color: rgb(207, 207, 207);
     background-color: white;
     opacity: .9;
     text-align: center;
@@ -81,7 +81,7 @@
     font-weight: bold;
     font-style: normal;
     text-transform: uppercase;
-    color: #2196f3;
+    color: #353535;
     display: block;
     text-decoration: underline;
     margin: 10px 0 0
@@ -524,16 +524,18 @@
 
 .df-ui-wrapper,
 .df-ui-btn {
-    color: #888;
+    color: rgb(0, 0, 0);
     vertical-align: top;
-    background-color: #f7f7f7;
+    background-color: #b9b9b98c;
+    backdrop-filter: blur(10px);
     box-sizing: border-box;
     text-align: center
 }
 
 .df-ui-wrapper {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    background-color: #f7f7f7;
+    box-shadow: 0 4px 7px rgba(134, 134, 134, 0.486);
+    background-color: #30303054;
+    backdrop-filter: blur(10px);
     position: absolute
 }
 
@@ -564,21 +566,21 @@
 }
 
 span.df-share-title {
-    color: #777;
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
     display: block
 }
 
 .df-share-url {
-    background-color: #fff;
-    height: 60px;
-    color: #666;
-    padding: 2px 5px;
-    -webkit-border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    height: 80px;
+    color: rgb(0, 0, 0);
+    padding: 8px 5px;
+    -webkit-border-radius: 6px;
     -moz-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 100%;
-    font-size: 12px;
+    font-size: 10px;
     box-sizing: border-box;
     margin-bottom: 0
 }
@@ -592,11 +594,11 @@ span.df-share-title {
     border-radius: 50%;
     padding: 10px;
     margin: 3px;
-    color: rgb(189, 77, 77)
+    color: rgb(0, 0, 0)
 }
 
 .df-share-button:hover {
-    color: rgb(0, 0, 0)
+    color: rgb(87, 87, 87)
 }
 
 .df-ui-btn {
@@ -868,7 +870,7 @@ span.df-share-title {
 }
 
 .df-ui-btn.df-active {
-    color: #00acce;
+    color: #7e7e7e;
     background-color: #e7e7e7
 }
 
@@ -894,7 +896,7 @@ span.df-share-title {
     bottom: 100%;
     margin-bottom: 8px !important;
     right: 10px;
-    background-color: #f7f7f7;
+    background-color: #929292;
     z-index: 20;
     border-radius: 5px;
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2)
@@ -1014,7 +1016,7 @@ span.df-share-title {
 
 .annotationDiv .popup h1 {
     font-size: 1em;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(97, 97, 97);
     padding-bottom: .2em
 }
 
@@ -1057,7 +1059,7 @@ a.linkAnnotation:hover,
 a.customLinkAnnotation:hover {
     opacity: .4;
     border-color: transparent;
-    background-color: #2196f3
+    background-color: #577b99
 }
 
 .annotationDiv,
@@ -1353,17 +1355,16 @@ section.linkAnnotation a .annotationLayer>a {
 }
 
 ._df_button {
-    padding: 5px 15px;
-    background: #0085ba;
+    padding: 6px 35px;
+    background: #000000;
     color: white;
     font-size: 14px;
-    border-color: #0073aa #006799 #006799;
+    border-color: #000000;
     cursor: pointer;
     border-width: 1px;
     border-style: solid;
-    -webkit-appearance: none;
     -webkit-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 16px;
     white-space: nowrap
 }
 
@@ -1382,7 +1383,7 @@ section.linkAnnotation a .annotationLayer>a {
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
     box-sizing: border-box;
-    -webkit-transition: .2s;
+
     margin: 30px 10px 10px;
     -moz-perspective: 1200px;
     perspective: 1200px
@@ -1421,9 +1422,6 @@ section.linkAnnotation a .annotationLayer>a {
     background-color: #eee;
     position: relative;
     overflow: hidden;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22)
 }
 
