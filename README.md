@@ -6,10 +6,14 @@ https://pdfflipbook.vercel.app - Demo
 
 # Documentation
 
+## troubleshooting
 
-# File Structure
+### Flipbook pages are not visible/defective in PDF
+Check the pdf if using the link Make sure that cross-origin resource sharing is enabled 
 
-This flipbook plugin is jQuery based. Basically you can copy the files in folder to your working directory. You don't need to include the lib folder..
+## File Structure
+
+This flipbook plugin is jQuery-based. Basically, you can copy the files in folder to your working directory. You don't need to include the lib folder..
 
 ```
 lib/ 
@@ -118,7 +122,6 @@ Create Flipbook through Button lightbox.
 
 
 
-# flipbook pages are not visible/defect in PDF
-check pdf if using link make sure that cross-origin resource sharing is enabled 
+
 
 -----
