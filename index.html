@@ -27,12 +27,12 @@
   <!-- Flipbook main Js file -->
   <script>
     jQuery(document).ready(function () {
-      //uses source from online(make sure the file has CORS access enabled if used in cross domain)
+      //uses source from online(make sure the file has CORS access enabled if used in cross-domain)
       var pdf = 'https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf';
       var options = {
-        height: 1000,
+        height:2000,
         duration: 700,
-        backgroundColor: "#2F2F2F"
+        backgroundColor: "#2F2D2F"
       };
       var flipBook = $("#flipbookContainer").flipBook(pdf, options);
     });
