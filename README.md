@@ -1,15 +1,14 @@
-# PDF Flipbook
+# <p align="center">PDF Flipbook</p>
 
-https://pdfflipbook.vercel.app - Demo
+<https://pdfflipbook.vercel.app> - Demo
 
-## FAQ
+---
 
-# Documentation
+## Documentation
 
-## troubleshooting
+### Q) Flipbook pages are not visible/defective in PDF
 
-### Flipbook pages are not visible/defective in PDF
-Check the pdf if using the link Make sure that cross-origin resource sharing is enabled 
+Check the pdf if using the link Make sure that cross-origin resource sharing is enabled
 
 ## File Structure
 
@@ -43,53 +42,61 @@ lib/
             ├── three.min.js
             └── mockup.min.js
 
-}
 ```
 
 ## File Template
+
 And ensure the following files are included in the html.
 
-CSS:
+### CSS
+
 ```
             
-                <!-- Flipbook StyleSheet -->
-                <link href="http://www.yoursite.com/dflip/css/dflip.css" rel="stylesheet" type="text/css">
+<!-- Flipbook StyleSheet -->
+<link href="http://www.yoursite.com/dflip/css/dflip.css" rel="stylesheet" type="text/css">
 
-                <!-- Icons Stylesheet -->
-                <link href="http://www.yoursite.com/dflip/css/themify-icons.css" rel="stylesheet" type="text/css">
+<!-- Icons Stylesheet -->
+  <link href="http://www.yoursite.com/dflip/css/themify-icons.css" rel="stylesheet" type="text css">
             
         
 ```
-JavaScript:
+
+### JavaScript
 
 Note: Include them just before </body> tag. Don't use them in head.
 
 ```
             
 <!-- jQuery 1.9.1 or above -->
+
 <script src="http://www.yoursite.com/dflip/js/libs/jquery.min.js" type="text/javascript"></script>
 
+
 <!-- Flipbook main Js file -->
+
 <script src="http://www.yoursite.com/dflip/js/dflip.min.js" type="text/javascript"></script>
             
         
 ```
+
 Basic HTML Template
+
 ```
 
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Basic HTML Template</title>
+<html>
+   <head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       
+          <title>Basic HTML Template</title>
 
-    <!-- Flipbook StyleSheet -->
-    <link href="http://www.yoursite.com/dflip/css/dflip.css" rel="stylesheet" type="text/css">
+     <!-- Flipbook StyleSheet -->
+      <link href="http://www.yoursite.com/dflip/css/dflip.css" rel="stylesheet" type="text/css">
 
-    <!-- Icons Stylesheet -->
-    <link href="http://www.yoursite.com/dflip/css/themify-icons.css" rel="stylesheet" type="text/css">
+     <!-- Icons Stylesheet -->
+     <link href="http://www.yoursite.com/dflip/css/themify-icons.css" rel="stylesheet" type="text/css">
 
-    </head>
+   </head>
     <body>
     <div class="_df_thumb" id="df_manual_thumb" source="location of pdf.pdf" thumb="location of thumbnail.jpg"> PDF Example</div >
     <!-- Refer to other examples on how to create different types of flipbook -->
@@ -103,7 +110,9 @@ Basic HTML Template
     </body>
     </html>
 ```
+
 Create Flipbook through Button lightbox.
+
 ```
 <div class="_df_button"
     source="http://www.yoursite.com/books/dflip manual.pdf"
@@ -111,17 +120,18 @@ Create Flipbook through Button lightbox.
     Button
 </div>
 ```
-## Acknowledgements
-
- - [Dflip]()
-
-
-## Authors
+---
+### Contributors
 
 - [@HiIamChaitanya](https://www.github.com/HiIamChaitanya)
 
+---
 
+### Acknowledgements
 
+- [flip]()
+- [pdf.js]()
+- [three.js]()
+- [jquery]()
 
-
------
+---
