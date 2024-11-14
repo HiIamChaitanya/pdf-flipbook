@@ -17,7 +17,7 @@ This flipbook plugin is jQuery-based. Basically, you can copy the files in folde
 ```
 lib/ 
     ├── css/
-    │   ├── dflip.css
+    │   ├── min.css
     │   └── themify-icons.css
     │
     ├── fonts/
@@ -33,8 +33,7 @@ lib/
     │   └── turn2.mp3
     │
     └── js/
-        ├── dflip.js
-        ├── dflip.min.js
+        ├── flip.min.js
         └── libs/
             ├── jquery.min.js
             ├── pdf.min.js
@@ -53,10 +52,10 @@ And ensure the following files are included in the html.
 ```
             
 <!-- Flipbook StyleSheet -->
-<link href="http://www.yoursite.com/dflip/css/dflip.css" rel="stylesheet" type="text/css">
+<link href="http://www.yoursite.com/lib/css/min.css" rel="stylesheet" type="text/css">
 
 <!-- Icons Stylesheet -->
-  <link href="http://www.yoursite.com/dflip/css/themify-icons.css" rel="stylesheet" type="text css">
+  <link href="http://www.yoursite.com/lib/css/themify-icons.css" rel="stylesheet" type="text css">
             
         
 ```
@@ -69,12 +68,12 @@ Note: Include them just before </body> tag. Don't use them in head.
             
 <!-- jQuery 1.9.1 or above -->
 
-<script src="http://www.yoursite.com/dflip/js/libs/jquery.min.js" type="text/javascript"></script>
+<script src="http://www.yoursite.com/lib/js/libs/jquery.min.js" type="text/javascript"></script>
 
 
 <!-- Flipbook main Js file -->
 
-<script src="http://www.yoursite.com/dflip/js/dflip.min.js" type="text/javascript"></script>
+<script src="http://www.yoursite.com/lib/js/flip.min.js" type="text/javascript"></script>
             
         
 ```
@@ -91,10 +90,10 @@ Basic HTML Template
           <title>Basic HTML Template</title>
 
      <!-- Flipbook StyleSheet -->
-      <link href="http://www.yoursite.com/dflip/css/dflip.css" rel="stylesheet" type="text/css">
+      <link href="http://www.yoursite.com/lib/css/min.css" rel="stylesheet" type="text/css">
 
      <!-- Icons Stylesheet -->
-     <link href="http://www.yoursite.com/dflip/css/themify-icons.css" rel="stylesheet" type="text/css">
+     <link href="http://www.yoursite.com/lib/css/themify-icons.css" rel="stylesheet" type="text/css">
 
    </head>
     <body>
@@ -102,10 +101,10 @@ Basic HTML Template
     <!-- Refer to other examples on how to create different types of flipbook -->
 
     <!-- jQuery 1.9.1 or above -->
-    <script src="http://www.yoursite.com/dflip/js/libs/jquery.min.js" type="text/javascript"></script>
+    <script src="http://www.yoursite.com/lib/js/libs/jquery.min.js" type="text/javascript"></script>
 
     <!-- Flipbook main Js file -->
-    <script src="http://www.yoursite.com/dflip/js/dflip.min.js" type="text/javascript"></script>
+    <script src="http://www.yoursite.com/lib/js/flip.min.js" type="text/javascript"></script>
 
     </body>
     </html>
@@ -115,7 +114,7 @@ Create Flipbook through Button lightbox.
 
 ```
 <div class="_df_button"
-    source="http://www.yoursite.com/books/dflip manual.pdf"
+    source="http://www.yoursite.com/file.pdf"
     id="df_manual_button">
     Button
 </div>
