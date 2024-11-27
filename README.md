@@ -131,5 +131,6 @@ Create Flipbook through Button lightbox.
 - [pdf.js]()
 - [three.js]()
 - [jquery]()
+- [dflip]()
 
 ---
