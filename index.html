@@ -23,7 +23,7 @@
   <!-- jQuery  -->
   <script src="lib/js/libs/jquery.min.js" type="text/javascript"></script>
   <!-- Flipbook main Js file -->
-  <script src="lib/js/flip.min.js" type="text/javascript"></script>
+  <script src="lib/js/flip.js" type="text/javascript"></script>
   <!-- Flipbook main Js file -->
   <script>
     jQuery(document).ready(function () {
@@ -32,7 +32,8 @@
       var options = {
         height:2000,
         duration: 700,
-        backgroundColor: "#2F2D2F"
+        backgroundColor: "#2F2D2F",
+        soundEnable : false
       };
       var flipBook = $("#flipbookContainer").flipBook(pdf, options);
     });

@@ -33,7 +33,7 @@ lib/
     │   └── turn2.mp3
     │
     └── js/
-        ├── flip.min.js
+        ├── flip.js
         └── libs/
             ├── jquery.min.js
             ├── pdf.min.js
